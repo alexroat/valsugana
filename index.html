@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#1f5f3f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Valsugana">
+  <title>Valsugana Offline</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="stylesheet" href="vendor/maplibre/maplibre-gl.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="map"></div>
+  <header id="topbar">
+    <div id="searchbox">
+      <button id="btn-menu" aria-label="Menu" data-i18n-title="Menu">☰</button>
+      <input id="q" type="search" placeholder="Cerca rifugi, cime, sentieri…" data-i18n-ph="Cerca rifugi, cime, sentieri…" autocomplete="off" enterkeyhint="search">
+      <button id="qclear" class="hidden" aria-label="Cancella">✕</button>
+    </div>
+    <ul id="results" class="hidden"></ul>
+  </header>
+  <div id="chips">
+    <button id="packchip" class="chip">⬇︎ Scarica per offline</button>
+    <button id="nearchip" class="chip light">📍 <span data-i18n="Vicino a me">Vicino a me</span></button>
+    <span id="tripchip" class="chip light split hidden"><button id="tripchipopen">🧭 <span id="tripchiptxt"></span></button><button id="tripchipx" aria-label="Chiudi itinerario">✕</button></span>
+  </div>
+  <div id="installbar" class="hidden">
+    <img src="icons/icon-192.png" alt="">
+    <div id="installmsg"></div>
+    <button id="installgo" class="btn primary">Installa</button>
+    <button id="installclose" class="btn ghost" aria-label="Chiudi">✕</button>
+  </div>
+  <div id="netstate" class="chip small hidden">✈︎ Offline</div>
+  <div id="loader" class="hidden"><div class="spin"></div><div id="loadermsg"></div></div>
+  <section id="trekbar" class="hidden"></section>
+  <nav id="fabs">
+    <button id="btn-tag" class="fab" title="Tagga un posto" data-i18n-title="Tagga un posto">＋<span id="tagbadge" class="badge hidden">0</span></button>
+    <button id="btn-pano" class="fab" title="Panorama: che montagne vedo?" data-i18n-title="Panorama: che montagne vedo?">⛰️</button>
+    <button id="btn-layers" class="fab" title="Satellite / mappa" data-i18n-title="Satellite / mappa">🛰️</button>
+    <button id="btn-3d" class="fab" title="Vista 3D" data-i18n-title="Vista 3D">3D</button>
+    <button id="btn-north" class="fab" title="Nord in alto" data-i18n-title="Nord in alto">🧭</button>
+    <button id="btn-locate" class="fab primary" title="Dove sono?" data-i18n-title="Dove sono?">◎</button>
+  </nav>
+  <div id="menuback" class="hidden"></div>
+  <aside id="menu" class="hidden" aria-label="Menu">
+    <div class="mhead"><b>🏔️ Valsugana Offline</b><button id="menuclose" aria-label="Chiudi">✕</button></div>
+    <div class="msec" data-i18n="Catalogo">Catalogo</div>
+    <button data-m="places">📍 <span data-i18n="Luoghi">Luoghi</span></button>
+    <button data-m="trails">🥾 <span data-i18n="Sentieri">Sentieri</span></button>
+    <button data-m="apttrips">🧭 <span data-i18n="Itinerari consigliati">Itinerari consigliati</span></button>
+    <div class="msec" data-i18n="I miei">I miei</div>
+    <button data-m="saved">⭐ <span data-i18n="Luoghi salvati e note">Luoghi salvati e note</span></button>
+    <button data-m="trips">🧭 <span data-i18n="I miei itinerari">I miei itinerari</span></button>
+    <button data-m="photos">📷 <span data-i18n="Le mie foto">Le mie foto</span></button>
+    <button data-m="backup">💾 <span data-i18n="Backup dei miei dati">Backup dei miei dati</span></button>
+    <div class="msec" data-i18n="App">App</div>
+    <button data-m="pack">⬇︎ <span data-i18n="Mappa offline e lingua">Mappa offline e lingua</span></button>
+    <p class="mfoot" data-i18n="I tuoi dati restano solo su questo telefono.">I tuoi dati restano solo su questo telefono.</p>
+  </aside>
+  <div id="photoview" class="hidden"><img alt=""><div class="pvbar"><span></span><button data-pv="del" class="btn">🗑️</button><button data-pv="close" class="btn">✕</button></div></div>
+  <section id="sheet" class="sheet hidden" aria-live="polite">
+    <div class="grip"></div>
+    <button id="sheetx" aria-label="Chiudi" data-i18n-title="Chiudi">✕</button>
+    <div id="sheet-body"></div>
+  </section>
+  <section id="packpanel" class="sheet hidden">
+    <div class="grip"></div>
+    <h2 data-i18n="Mappa offline · Valsugana e Lagorai">Mappa offline · Valsugana e Lagorai</h2>
+    <p class="muted" data-i18n="Scarica il pacchetto con il Wi-Fi (in hotel, all'ufficio turistico). Poi la mappa, il 3D, la ricerca e il GPS funzionano anche senza campo.">Scarica il pacchetto con il Wi-Fi (in hotel, all'ufficio turistico). Poi la mappa, il 3D, la ricerca e il GPS funzionano anche senza campo.</p>
+    <label class="langrow">🌐 <select id="langsel"></select></label>
+    <ul id="packfiles"></ul>
+    <div class="progress"><div id="packbar"></div></div>
+    <p id="packmsg" class="muted"></p>
+    <div class="row">
+      <button id="packdl" class="btn primary">Scarica tutto</button>
+      <button id="packdel" class="btn" data-i18n="Elimina">Elimina</button>
+      <button id="packclose" class="btn ghost" data-i18n="Chiudi">Chiudi</button>
+    </div>
+    <p id="installhint" class="muted small"></p>
+  </section>
+  <div id="dlbar" class="hidden"><div id="dlbartext"></div><div class="progress"><div id="dlbarfill"></div></div></div>
+  <div id="poschip" class="hidden"><span>📌 <span id="posname" data-i18n="Posizione scelta da te">Posizione scelta da te</span> · <b data-i18n="non GPS">non GPS</b></span><button id="posgps" class="btn" data-i18n="Usa GPS">Usa GPS</button></div>
+  <div id="tripbar" class="hidden"></div>
+  <div id="selchip" class="hidden"><button id="selname"></button><button id="selx" aria-label="Togli la selezione">✕</button></div>
+  <input type="file" id="importfile" accept=".json,application/json" hidden>
+  <div id="pickbar" class="hidden"><span id="pickmsg"></span><button id="pickcancel" class="btn" data-i18n="Annulla">Annulla</button></div>
+  <div id="toast" class="hidden"></div>
+  <script type="module" src="js/app.eb81cb2c0f.js"></script>
+</body>
+</html>

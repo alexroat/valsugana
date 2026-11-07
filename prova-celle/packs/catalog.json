@@ -1,0 +1,2306 @@
+{
+ "format": "vo-catalog/2",
+ "region": "dolomiti",
+ "name": "Trentino e Alto Adige (anteprima)",
+ "dataset": "20261107T0938",
+ "generated": "2026-11-07T09:40:51.890Z",
+ "grid": {
+  "z": 10
+ },
+ "bbox": [
+  9.84375,
+  45.336702,
+  13.359375,
+  47.517201
+ ],
+ "layers": {
+  "basemap": {
+   "split": 10,
+   "minzoom": 0,
+   "maxzoom": 15
+  },
+  "dem": {
+   "split": 11,
+   "minzoom": 5,
+   "maxzoom": 12,
+   "encoding": "terrarium",
+   "bounds": [
+    9.0437,
+    44.7867,
+    14.1594,
+    48.0672
+   ]
+  },
+  "satellite": {
+   "split": 10,
+   "minzoom": 10,
+   "maxzoom": 15
+  },
+  "satlow": {
+   "split": 99,
+   "minzoom": 6,
+   "maxzoom": 11,
+   "bounds": [
+    5,
+    43.3,
+    16.9,
+    48.6
+   ]
+  }
+ },
+ "labels": {
+  "content.json": "Luoghi e itinerari",
+  "network.json": "Rete dei sentieri (navigazione)",
+  "water.geojson": "Laghi e fiumi",
+  "media.bin": "Foto dei luoghi",
+  "basemap.pmtiles": "Mappa",
+  "dem.pmtiles": "Rilievo 3D",
+  "satellite.pmtiles": "Ortofoto",
+  "satellite-low.pmtiles": "Ortofoto a bassa risoluzione",
+  "meta.json": "Impostazioni",
+  "peaks.json": "Cime (panorama)",
+  "search.txt": "Indice di ricerca",
+  "vopack": "Pacchetto completo"
+ },
+ "base": {
+  "pack": {
+   "file": "base.vopack",
+   "size": 98234887,
+   "sha": "a785fa76f602260528e36d3790d206b1dc90c54440ab43574c6f4172637c0809"
+  },
+  "files": {
+   "meta.json": {
+    "offset": 811,
+    "size": 2229,
+    "sha": "abbd3afe303061557cccae9d2073df2c56d597a2aa941620220a748d86f07538"
+   },
+   "peaks.json": {
+    "offset": 3040,
+    "size": 1201418,
+    "sha": "4e88981c9e5420c7fb7a96ef164a8e79f0bb1d638b1d933c7e55f5442eb3edd5"
+   },
+   "search.txt": {
+    "offset": 1204458,
+    "size": 20385995,
+    "sha": "8bb4cbd1a8441bcf4fe6cfd490d49dd2cf22b8de86362647946c60e460ead9fc"
+   },
+   "basemap.pmtiles": {
+    "offset": 21590453,
+    "size": 10109759,
+    "sha": "fb32f9b98c3b04c91734f5a8760521deb33bb7624365fd0667a77ae941b0bc74"
+   },
+   "dem.pmtiles": {
+    "offset": 31700212,
+    "size": 44490897,
+    "sha": "7d2dc0ff8ee31ab939fedb2c7f7759f02c0986ac4ef1e0afb3c3460794dab5bb"
+   },
+   "satellite-low.pmtiles": {
+    "offset": 76191109,
+    "size": 22043778,
+    "sha": "9c41ff3bcb275dae68ebd12038cad2925204211549ba4105d171cb5180d9f6af"
+   }
+  },
+  "version": "a785fa76f602"
+ },
+ "cells": {
+  "546-359": {
+   "bbox": [
+    11.953125,
+    47.040182,
+    12.304688,
+    47.279229
+   ],
+   "pois": 1513,
+   "routes": 117,
+   "pack": {
+    "file": "cells/546-359.vopack",
+    "size": 14345161,
+    "sha": "292e26409b6e44239c7a4b69ce0da8b994906cf78e97c18bc7e28e8e3d607ded"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1302,
+     "size": 1728452,
+     "sha": "d2b96cf917586e75fd428b473218ee85bf947a4ecdb9bcbdcf510f1bcf62cf4d"
+    },
+    "texts-en.json": {
+     "offset": 1729754,
+     "size": 239037,
+     "sha": "89d8b4c42a126af37985d8d103608df1a51c02a5717bd85545de9458c8410809"
+    },
+    "texts-de.json": {
+     "offset": 1968791,
+     "size": 252251,
+     "sha": "f044659259a97adcc71017e43055fa517ffa7b1e453bb6e52fd4a873b49435c5"
+    },
+    "texts-nl.json": {
+     "offset": 2221042,
+     "size": 251407,
+     "sha": "98030aec12830ac87c805c51ff0c3f4e6fd7b6de0fc19250dd6488c2077e57ce"
+    },
+    "network.json": {
+     "offset": 2472449,
+     "size": 587220,
+     "sha": "c81be03ac5c7fc2d4d36c73257ed1f07f4ae035f5711ac2f4179bf53c79df20a"
+    },
+    "water.geojson": {
+     "offset": 3059669,
+     "size": 224003,
+     "sha": "216308117224b08553afada185b7fd967b312b1d09a8a015470dc2854b09474c"
+    },
+    "media.bin": {
+     "offset": 3283672,
+     "size": 178140,
+     "sha": "df00e13b015a34c75e4a2e225581d4b8f87de614b6fe745dca572dc9db8d731d"
+    },
+    "basemap.pmtiles": {
+     "offset": 3461812,
+     "size": 3546327,
+     "sha": "91f6decf6c6b0a53ae55955370d19d0f292480482dd3edf31ea8e158f91b3679"
+    },
+    "dem.pmtiles": {
+     "offset": 7008139,
+     "size": 2793868,
+     "sha": "52aba07bb514ce20d057c430c827fc5b51b08473267cda316cabfc5774ecfaa8"
+    },
+    "satellite.pmtiles": {
+     "offset": 9802007,
+     "size": 4543154,
+     "sha": "f9ea63d82904a6b66cd6f4d061ad2be003380e7ff86cf800745f6cc8c271f3a5"
+    }
+   },
+   "version": "292e26409b6e"
+  },
+  "542-360": {
+   "bbox": [
+    10.546875,
+    46.800059,
+    10.898438,
+    47.040182
+   ],
+   "pois": 1184,
+   "routes": 111,
+   "pack": {
+    "file": "cells/542-360.vopack",
+    "size": 16225230,
+    "sha": "cd8aa5840c2b52f73ad30827ec951420a60d222a38ac7e4ee333e0badac6cf14"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1302,
+     "size": 1449921,
+     "sha": "bf4b5bc3cee6c11e1f476e6a42a7892f6ddb70e66b71a07fc8311bd98f4efa94"
+    },
+    "texts-en.json": {
+     "offset": 1451223,
+     "size": 171178,
+     "sha": "2f876822bd11e0d5afa5f2fc1c3e287306b3e3801d81ab0602691cbdc5e84682"
+    },
+    "texts-de.json": {
+     "offset": 1622401,
+     "size": 182963,
+     "sha": "b841e22c8e658727005dc560f0ecbcfaa7fab7877587a6b4af62fe67a3481c76"
+    },
+    "texts-nl.json": {
+     "offset": 1805364,
+     "size": 182295,
+     "sha": "7a1a86f3519ba86c00600b1fd3e1267d95440cf93477b3d205e948341c7ed05c"
+    },
+    "network.json": {
+     "offset": 1987659,
+     "size": 499029,
+     "sha": "829285241dee9e5eb7133785b72270887618ffc9bb793d24132f6eb0fd184239"
+    },
+    "water.geojson": {
+     "offset": 2486688,
+     "size": 208220,
+     "sha": "15b9aab8f60f9166e15773c2b6d32c5ee4a87a158454fae503f5b63e551abe57"
+    },
+    "media.bin": {
+     "offset": 2694908,
+     "size": 118944,
+     "sha": "d9911f50095246fd09eba96a35f5980ea26269a9a45bc689d9eb25fc1666d3a1"
+    },
+    "basemap.pmtiles": {
+     "offset": 2813852,
+     "size": 3095039,
+     "sha": "22ce9148848a6b76abd55a94bf5482f38810f0d472fea715c5b04ec6ad40e500"
+    },
+    "dem.pmtiles": {
+     "offset": 5908891,
+     "size": 2805750,
+     "sha": "a54ef00661d6795b26096292018a2e7ab58c5a3e7d361bb4252eb8d52a69003c"
+    },
+    "satellite.pmtiles": {
+     "offset": 8714641,
+     "size": 7510589,
+     "sha": "257bb3f0d7fccc0db9ff66d9b2cac3b51b2903f3871f773faae99940bf7dc299"
+    }
+   },
+   "version": "cd8aa5840c2b"
+  },
+  "543-360": {
+   "bbox": [
+    10.898438,
+    46.800059,
+    11.25,
+    47.040182
+   ],
+   "pois": 1895,
+   "routes": 151,
+   "pack": {
+    "file": "cells/543-360.vopack",
+    "size": 19839210,
+    "sha": "cd1e4b08372a9cd99be70e3d09cd29fe4d21e4dd43eaf83130bbdb1a68f9f78c"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1303,
+     "size": 2151866,
+     "sha": "83c8b71e158bddaeb0b089f251663a3c18dda434e11c0d280e8e5ad9f102392b"
+    },
+    "texts-en.json": {
+     "offset": 2153169,
+     "size": 313830,
+     "sha": "18bcb3305fc525c4c6b3eb7389ab1868e91bcc79e0f36107ba4ad752b0eec1d1"
+    },
+    "texts-de.json": {
+     "offset": 2466999,
+     "size": 328391,
+     "sha": "dc0caedfc290c48e6e8f99f50dae88690f5f138412e688fed6fdb462e2d29239"
+    },
+    "texts-nl.json": {
+     "offset": 2795390,
+     "size": 328437,
+     "sha": "ca811b7281175d35eb7d78c3fca30aec8721107cb08ebde1bf92c8868a60ef81"
+    },
+    "network.json": {
+     "offset": 3123827,
+     "size": 749252,
+     "sha": "c7f4e287dec0da715875e7330781ed7797bfee645f4e6fff9e2b533f4fc7bcc2"
+    },
+    "water.geojson": {
+     "offset": 3873079,
+     "size": 281065,
+     "sha": "a95f8a7fd91c55709d38ff7d038d31146d38021e7a2db5520b36049bb5767f8f"
+    },
+    "media.bin": {
+     "offset": 4154144,
+     "size": 194450,
+     "sha": "d56c0cc83de1e1a7e088c810260efe90316880f3abb2b3884dea0db41db9792c"
+    },
+    "basemap.pmtiles": {
+     "offset": 4348594,
+     "size": 3652207,
+     "sha": "ddba0060b6170c3070dd4b10ae8cd322e08595845df38b50717e76647095d5d1"
+    },
+    "dem.pmtiles": {
+     "offset": 8000801,
+     "size": 2815635,
+     "sha": "6d342d538aa3628b89eac34f6ef5e689b392789ceeb67a83fe1e65a185fb54c7"
+    },
+    "satellite.pmtiles": {
+     "offset": 10816436,
+     "size": 9022774,
+     "sha": "cdef9921639c89a65b3f2f1043d68001913f028ff597db165cd369b43c53959e"
+    }
+   },
+   "version": "cd1e4b08372a"
+  },
+  "544-360": {
+   "bbox": [
+    11.25,
+    46.800059,
+    11.601563,
+    47.040182
+   ],
+   "pois": 1443,
+   "routes": 339,
+   "pack": {
+    "file": "cells/544-360.vopack",
+    "size": 27981263,
+    "sha": "51147a93e917eee743f653130b58d2feb56c9b0251c51951e8580acb69f8b750"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1306,
+     "size": 2189723,
+     "sha": "c500c2e09294dffe57446e4de3552e3e4258a1df5e64a3b188a6ef3c29f5a163"
+    },
+    "texts-en.json": {
+     "offset": 2191029,
+     "size": 238858,
+     "sha": "18fda96c957624ebf04be9e3ebd140c90ea6e2722f3cb7f9fa725a360e209ba0"
+    },
+    "texts-de.json": {
+     "offset": 2429887,
+     "size": 251443,
+     "sha": "7aaf0fdf51cdd980257d9096dfe0f5db83d8ca72a3454096784116b65cba6d8c"
+    },
+    "texts-nl.json": {
+     "offset": 2681330,
+     "size": 250171,
+     "sha": "582a36ddca289f0099d8efc631029005570560dfe7ecb961e0baf07088565df6"
+    },
+    "network.json": {
+     "offset": 2931501,
+     "size": 1088294,
+     "sha": "5440ecb9a726a3eac39c89492cb849f379b0e8d5422542d4de8bcfa0991356af"
+    },
+    "water.geojson": {
+     "offset": 4019795,
+     "size": 269555,
+     "sha": "26d84ee6c31f965743bd243371798a972fb60118925872c9193ad0372a0547f5"
+    },
+    "media.bin": {
+     "offset": 4289350,
+     "size": 285198,
+     "sha": "fe97990e9c083a378db503ffb7b74277179f62700b2b16ec260c269526feaf12"
+    },
+    "basemap.pmtiles": {
+     "offset": 4574548,
+     "size": 6360650,
+     "sha": "3ea9a1022dc8cdaf780df3a65c35798d355871df00839ffd4f2ff2cbce814264"
+    },
+    "dem.pmtiles": {
+     "offset": 10935198,
+     "size": 2779854,
+     "sha": "cfb751cf05ceef49f249e49961e508e4167a7d48357ea588d0bb6e996a9de4d6"
+    },
+    "satellite.pmtiles": {
+     "offset": 13715052,
+     "size": 14266211,
+     "sha": "104336061507fc3e78347bf8b71994c74bc17f98935b9c27b0538162082b2969"
+    }
+   },
+   "version": "51147a93e917"
+  },
+  "545-360": {
+   "bbox": [
+    11.601563,
+    46.800059,
+    11.953125,
+    47.040182
+   ],
+   "pois": 1834,
+   "routes": 405,
+   "pack": {
+    "file": "cells/545-360.vopack",
+    "size": 27924676,
+    "sha": "6d7398e553ab4a1260ad595e7e5fd08995ddc76640eb4a8092bfa3189c83506d"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1306,
+     "size": 2575788,
+     "sha": "c43db890eb5d8e012eb37bcf42253b43a470d60b97bea81371cbff66a283c316"
+    },
+    "texts-en.json": {
+     "offset": 2577094,
+     "size": 321864,
+     "sha": "6a837241955e91607162691e32965eb1c07324df6f93fa4f8fae6f86987d637a"
+    },
+    "texts-de.json": {
+     "offset": 2898958,
+     "size": 339404,
+     "sha": "571a45067795b1b91810365a1a699707e2d7c1b61852c799e189ea5bd4ff0c21"
+    },
+    "texts-nl.json": {
+     "offset": 3238362,
+     "size": 339364,
+     "sha": "f8cae2d93d4fd34bf8fa34c47f2fa38f522c4373140385ade069b72861210566"
+    },
+    "network.json": {
+     "offset": 3577726,
+     "size": 1123755,
+     "sha": "7792df8358ee1a91356fe3ae96d3d87992460c06f14ed5e90ccfbc5aa33827ff"
+    },
+    "water.geojson": {
+     "offset": 4701481,
+     "size": 250558,
+     "sha": "8599e64781976854d46f988f741d433ad3388a1136b94d06e7a8ac3bb20de3a2"
+    },
+    "media.bin": {
+     "offset": 4952039,
+     "size": 288840,
+     "sha": "27d3ee6fef3c45a0265aaa1730ce31fa58beeeaf6884b382a2455439a6dbcfb2"
+    },
+    "basemap.pmtiles": {
+     "offset": 5240879,
+     "size": 5504050,
+     "sha": "6728a2a628a2b2213ad42a3b4967caaa83f5ae485c2f947f6b38b6cc3988fd5b"
+    },
+    "dem.pmtiles": {
+     "offset": 10744929,
+     "size": 2765419,
+     "sha": "92e06b3c56b7adb0f5f71351b9bbb1eb69e65869fd148d5f845226adbcac4592"
+    },
+    "satellite.pmtiles": {
+     "offset": 13510348,
+     "size": 14414328,
+     "sha": "36faeca11e7caa2bb2f09c11e2eb646e176450d4ef637e96535e4d885cd05a8f"
+    }
+   },
+   "version": "6d7398e553ab"
+  },
+  "546-360": {
+   "bbox": [
+    11.953125,
+    46.800059,
+    12.304688,
+    47.040182
+   ],
+   "pois": 1177,
+   "routes": 288,
+   "pack": {
+    "file": "cells/546-360.vopack",
+    "size": 22953131,
+    "sha": "f68d93f8efc434ae18da75e2733419fee05acdc9bc701f9b50f87296170cfc8e"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1303,
+     "size": 1536304,
+     "sha": "06f7bd9aa78b3b2a48e19c4a98eeafe120b3a2420a7ca4b440908d5665bbb291"
+    },
+    "texts-en.json": {
+     "offset": 1537607,
+     "size": 192411,
+     "sha": "dc1b3ce0a149fce7d1213cacad7bfcaeb11564c488c3002c75e3813299eda1fd"
+    },
+    "texts-de.json": {
+     "offset": 1730018,
+     "size": 202474,
+     "sha": "3535194f306fac234fd4691f4c805ce3669d51821d49dc387b44431301f59ad0"
+    },
+    "texts-nl.json": {
+     "offset": 1932492,
+     "size": 201231,
+     "sha": "4755b6d619491e6c890318f70d201b2b389a85720f724c8cd2562bb63b9aa371"
+    },
+    "network.json": {
+     "offset": 2133723,
+     "size": 741309,
+     "sha": "7c5316f3d18f747a76330653499e8b8f01ee730b71eb7f4bab1da57550a3dbaf"
+    },
+    "water.geojson": {
+     "offset": 2875032,
+     "size": 213097,
+     "sha": "8268f4029808a888729ad80ce9e170703a4ed529b8081738b1d1ed437e4815be"
+    },
+    "media.bin": {
+     "offset": 3088129,
+     "size": 213026,
+     "sha": "5fd8b7f0856e4d3633706b620f7cb0848b3f0d62b9ce0a1ab68010507f0c2920"
+    },
+    "basemap.pmtiles": {
+     "offset": 3301155,
+     "size": 3216675,
+     "sha": "69e6114d78e0e9e9b45a52bd4000cbe494fe5b3402667e27fe7e301e2e4b6e9b"
+    },
+    "dem.pmtiles": {
+     "offset": 6517830,
+     "size": 2794801,
+     "sha": "c79df12c8cb78f590db0e56ad408f53daa3538cdb6b49ca1dc1d438992113eab"
+    },
+    "satellite.pmtiles": {
+     "offset": 9312631,
+     "size": 13640500,
+     "sha": "88295b521cc0b665c58256254b0d8449a41464be42bfcf450c22a1062c802a97"
+    }
+   },
+   "version": "f68d93f8efc4"
+  },
+  "541-361": {
+   "bbox": [
+    10.195313,
+    46.55886,
+    10.546875,
+    46.800059
+   ],
+   "pois": 1258,
+   "routes": 345,
+   "pack": {
+    "file": "cells/541-361.vopack",
+    "size": 14900073,
+    "sha": "8674e9ad882c0b50c39a3dd77373d9366b6f2e51b37c83be39dd75b6852b1ddc"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1302,
+     "size": 1613474,
+     "sha": "f08d0d7d65907bdbb9519da670b72c37ab0fd4c0660e13bd5db17fb1ea5cbc21"
+    },
+    "texts-en.json": {
+     "offset": 1614776,
+     "size": 199551,
+     "sha": "ca742eaa66ee588225d1180af63027469b1b996f6a237ddb83aeab9d1c243f02"
+    },
+    "texts-de.json": {
+     "offset": 1814327,
+     "size": 210058,
+     "sha": "21a30a2d525c473300d9a1dc179d579b2cf6aab9ecae0777f85c243cf1295125"
+    },
+    "texts-nl.json": {
+     "offset": 2024385,
+     "size": 209479,
+     "sha": "784f5224c84ef0ada79df8515f8ea3945447d1d95985c6f585c36feacac72c85"
+    },
+    "network.json": {
+     "offset": 2233864,
+     "size": 758080,
+     "sha": "c6f33af2c573ee8c40cdb5997600d8a20abc55d5efa5f920903c4b4c0f4d3733"
+    },
+    "water.geojson": {
+     "offset": 2991944,
+     "size": 202338,
+     "sha": "7f3e7155a3cd7cb909ed2a8b8816ce729a5636a9b34116042abe561c30e6a0cb"
+    },
+    "media.bin": {
+     "offset": 3194282,
+     "size": 62308,
+     "sha": "a7159ec20e9105fd90a3a418f1da0858f65150a9fd23f047558028019b9f83bd"
+    },
+    "basemap.pmtiles": {
+     "offset": 3256590,
+     "size": 4519839,
+     "sha": "9417b6fc594a52d1ecea40001ee808a0f7858839d1c6e9cb4f683718ceab581c"
+    },
+    "dem.pmtiles": {
+     "offset": 7776429,
+     "size": 2748238,
+     "sha": "6206c3fb8a232ee5275d1950439d635ee2c44c1697882d7c4536f8ad4da029d0"
+    },
+    "satellite.pmtiles": {
+     "offset": 10524667,
+     "size": 4375406,
+     "sha": "67fbd57d154f38c2c9bee1bc59be135795f0dee3433e44cec7b4d0b017e78d0f"
+    }
+   },
+   "version": "8674e9ad882c"
+  },
+  "542-361": {
+   "bbox": [
+    10.546875,
+    46.55886,
+    10.898438,
+    46.800059
+   ],
+   "pois": 1394,
+   "routes": 240,
+   "pack": {
+    "file": "cells/542-361.vopack",
+    "size": 27289561,
+    "sha": "0088eaee40c16ae40a4209ae013563d575ff466753ff8cb9ef5b7c01b8a91cba"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1305,
+     "size": 1399924,
+     "sha": "60b4be537b09f9d8810292285fc280eae88c51aa5571bd5f9f5e9960fa5c9a75"
+    },
+    "texts-en.json": {
+     "offset": 1401229,
+     "size": 224106,
+     "sha": "b33825bdf7a246c51dd44a0947feb201b29d63472db1f729161867221981c98e"
+    },
+    "texts-de.json": {
+     "offset": 1625335,
+     "size": 237137,
+     "sha": "20036a6ab68559507c4e4c02604b77e247b05c18535db8cca1475047b02dadd3"
+    },
+    "texts-nl.json": {
+     "offset": 1862472,
+     "size": 235866,
+     "sha": "84d390cda3455cad697721a1b242e396ed2565ae2dbe31ca92979b43f3ec5b76"
+    },
+    "network.json": {
+     "offset": 2098338,
+     "size": 1218304,
+     "sha": "986a8df1c67ffb0fc20c844de30350c42a47f747cf50abb11c77f531496b78aa"
+    },
+    "water.geojson": {
+     "offset": 3316642,
+     "size": 191388,
+     "sha": "2db1f59185acba0119d6b160a8e4cb8412aa6a044dbe73e12bbf947c43ad57dc"
+    },
+    "media.bin": {
+     "offset": 3508030,
+     "size": 315478,
+     "sha": "8f6917bdb03fafb297d1c800d9c3af15fd3174951bd079f4d9cefa95f1c2e582"
+    },
+    "basemap.pmtiles": {
+     "offset": 3823508,
+     "size": 5402933,
+     "sha": "68af6f227c7933e307ba4fcf92dfa6038974caa38ff3300277e749508eba0a4a"
+    },
+    "dem.pmtiles": {
+     "offset": 9226441,
+     "size": 2736247,
+     "sha": "c72e2d53764eaa095e5e1ad5d50621fe0a52fa588352c96a49c9077ce1bee7c3"
+    },
+    "satellite.pmtiles": {
+     "offset": 11962688,
+     "size": 15326873,
+     "sha": "f915e1dc73db1b1146b3a7c481d8b037ac32ddc44e52471f1f2d32c67da8ea5e"
+    }
+   },
+   "version": "0088eaee40c1"
+  },
+  "543-361": {
+   "bbox": [
+    10.898438,
+    46.55886,
+    11.25,
+    46.800059
+   ],
+   "pois": 4203,
+   "routes": 492,
+   "pack": {
+    "file": "cells/543-361.vopack",
+    "size": 35525370,
+    "sha": "c4012c03d224a719bf0483f0f44aedcc5af1e98e8f745e6a750e462a9f7507c7"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1306,
+     "size": 3818134,
+     "sha": "97d33795146437fb0cd4404ee29f7de0edefe5a9809dac4ecf085194fa6983d6"
+    },
+    "texts-en.json": {
+     "offset": 3819440,
+     "size": 731413,
+     "sha": "00008154059c91d71c27e5e2955a2b993add93de83e667f05d26b94e45bccfd8"
+    },
+    "texts-de.json": {
+     "offset": 4550853,
+     "size": 758173,
+     "sha": "964530d10c1916fd8f31a9d63eaec17af789c1a092862f2ee8d1bd9fa8e9b9a3"
+    },
+    "texts-nl.json": {
+     "offset": 5309026,
+     "size": 760515,
+     "sha": "4ca3b19fe61ca46eda55042edd3f48bb111a477a125c904ccc790c4a56e9342d"
+    },
+    "network.json": {
+     "offset": 6069541,
+     "size": 1853209,
+     "sha": "f3e4ec7f1bbf3f1d4572015b1868e21d5094cff991194763066a9d9f93bed48c"
+    },
+    "water.geojson": {
+     "offset": 7922750,
+     "size": 229910,
+     "sha": "fa442b01cd464f1d73cad46fc64d81fc5a7f4ea91988f6454a07047d3d9f07cb"
+    },
+    "media.bin": {
+     "offset": 8152660,
+     "size": 620022,
+     "sha": "a08f6ba6393bff50c65c9727e854566e05b896478476adfadaf396aebc5da5b4"
+    },
+    "basemap.pmtiles": {
+     "offset": 8772682,
+     "size": 8208220,
+     "sha": "3e80d007734a9e08dadca2f407fd0416b7473258e78c53ba9bc82ecf4b26208a"
+    },
+    "dem.pmtiles": {
+     "offset": 16980902,
+     "size": 2727536,
+     "sha": "b2ff9245616ba8df9d660a4ddaf26cf45e1e21101c51e1851ae8becd0b833f8f"
+    },
+    "satellite.pmtiles": {
+     "offset": 19708438,
+     "size": 15816932,
+     "sha": "ef3816f45c2529a524ae5f9560dd7a19e44fae38cd20142ffb6aac132fc398e4"
+    }
+   },
+   "version": "c4012c03d224"
+  },
+  "544-361": {
+   "bbox": [
+    11.25,
+    46.55886,
+    11.601563,
+    46.800059
+   ],
+   "pois": 2986,
+   "routes": 447,
+   "pack": {
+    "file": "cells/544-361.vopack",
+    "size": 32094153,
+    "sha": "12b324954da8c839d8d1e1af104fb8bcbf9076fb9dd7a4e09d9c837987cc9114"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1306,
+     "size": 3143110,
+     "sha": "526cac5552c164221e807b8be8f884e345226cd344c7823ad7b928f23eddb3c6"
+    },
+    "texts-en.json": {
+     "offset": 3144416,
+     "size": 590677,
+     "sha": "21d1224b8571f8a298e94f35d0965d5780ec3032887411ea8133d291be7791da"
+    },
+    "texts-de.json": {
+     "offset": 3735093,
+     "size": 630764,
+     "sha": "b34d48a99928178e625d932d1538bc2d4254aa956a9b0c72132f832b0f97c6b3"
+    },
+    "texts-nl.json": {
+     "offset": 4365857,
+     "size": 632163,
+     "sha": "bdabb382ea7ba57d66d58c34d4e106c946e08c4c66d2ab0d99c876512b2a400e"
+    },
+    "network.json": {
+     "offset": 4998020,
+     "size": 1267833,
+     "sha": "3f10b18d7ed15bb4bcd6428c75623fa5c841f2e1bd3a851f7662bdedb74ddc0a"
+    },
+    "water.geojson": {
+     "offset": 6265853,
+     "size": 192568,
+     "sha": "0267c7971c5678a71f3e70f2a95fcf31cdab21e0b38f7908b961fbf08f843fbb"
+    },
+    "media.bin": {
+     "offset": 6458421,
+     "size": 223886,
+     "sha": "a360d526dd89ab406d640338d8b3d7f7699cde75e9a1917eb9ba52f1d951bcda"
+    },
+    "basemap.pmtiles": {
+     "offset": 6682307,
+     "size": 6045207,
+     "sha": "683886f23124f3fbebc6857634da7904889cc8a937dc296d21b53282c04f6dc3"
+    },
+    "dem.pmtiles": {
+     "offset": 12727514,
+     "size": 2737670,
+     "sha": "6fb2285ddad070e88fe01e059ee3a463fa2755d5919040d191f771d1734ad009"
+    },
+    "satellite.pmtiles": {
+     "offset": 15465184,
+     "size": 16628969,
+     "sha": "2b275cd6077f1c853c58d4cb25f7ffdd0e7151452f1069f7f65491f70a7baadc"
+    }
+   },
+   "version": "12b324954da8"
+  },
+  "545-361": {
+   "bbox": [
+    11.601563,
+    46.55886,
+    11.953125,
+    46.800059
+   ],
+   "pois": 4627,
+   "routes": 634,
+   "pack": {
+    "file": "cells/545-361.vopack",
+    "size": 40536216,
+    "sha": "bdad3822968bc040928b3460edd786897f4418a872804b3239e9e98c23841928"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1307,
+     "size": 4567572,
+     "sha": "694cd4494e4c788c6574512622430f3a5b34475a442ec6a27fb08854a4431e72"
+    },
+    "texts-en.json": {
+     "offset": 4568879,
+     "size": 902732,
+     "sha": "5dda08b362b7d45910b61de664edf358724c524cd99d421aff5e127c93756ea3"
+    },
+    "texts-de.json": {
+     "offset": 5471611,
+     "size": 948368,
+     "sha": "d7e73c80cd2719c5f245f3ac8e77782b7409968ee38c7f521389ada5eb980398"
+    },
+    "texts-nl.json": {
+     "offset": 6419979,
+     "size": 949937,
+     "sha": "7192e794766759953c5ec1ffb8ec0059c8da975a129714adb50199a7885db0fd"
+    },
+    "network.json": {
+     "offset": 7369916,
+     "size": 2093024,
+     "sha": "0ed5e2de58725eff4dc070580baa20eb2a0dd3923d519c03f5106df56d9c68d0"
+    },
+    "water.geojson": {
+     "offset": 9462940,
+     "size": 262506,
+     "sha": "f7a46c49afe6546e2c4585ef8f5cb6ec9e21e148975e9cbc21a3a2aa687d15a2"
+    },
+    "media.bin": {
+     "offset": 9725446,
+     "size": 531010,
+     "sha": "3c5cc3b238bfe39a566ead7de50b6e5dbbc52377751a2eb6f0f23cb35a2e1fa3"
+    },
+    "basemap.pmtiles": {
+     "offset": 10256456,
+     "size": 9269752,
+     "sha": "f3b17bf55fc4bcab80a890aa6ae4674d30573af9536c928fa77deb7444ce134f"
+    },
+    "dem.pmtiles": {
+     "offset": 19526208,
+     "size": 2712234,
+     "sha": "684b737d9869547bfe003e7137767a33f8c1e1ea8dbf0e118bcb6dd2b6c8a0e6"
+    },
+    "satellite.pmtiles": {
+     "offset": 22238442,
+     "size": 18297774,
+     "sha": "7a42f1249746eb05b5db8ee87c9138ea2b132b9b3ba20291dac047b87d3cbd12"
+    }
+   },
+   "version": "bdad3822968b"
+  },
+  "546-361": {
+   "bbox": [
+    11.953125,
+    46.55886,
+    12.304688,
+    46.800059
+   ],
+   "pois": 2366,
+   "routes": 371,
+   "pack": {
+    "file": "cells/546-361.vopack",
+    "size": 27804593,
+    "sha": "1e5a9f96f3ecccddd5f05d58d5d968cd3a88d90fcf3fa61bfb4bc01a3b6e865a"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1306,
+     "size": 2659790,
+     "sha": "b0f449c7253768d5092d5d272f320ffcd9e60bcc1c5d530bcf7cd5dd5d64a328"
+    },
+    "texts-en.json": {
+     "offset": 2661096,
+     "size": 393812,
+     "sha": "4507d9d337d23b899051d92acea5ba71d3811eecd88f0a8f0d86f7b7c96bb80c"
+    },
+    "texts-de.json": {
+     "offset": 3054908,
+     "size": 416056,
+     "sha": "a173da45c18429b1faecd5b997f04b5cc56fa251dd53325be5b6b7c46fb457e4"
+    },
+    "texts-nl.json": {
+     "offset": 3470964,
+     "size": 414789,
+     "sha": "a0a28d44e111d0c2d4d027e3f569583b54051f1870d766169d270f29cd96f01e"
+    },
+    "network.json": {
+     "offset": 3885753,
+     "size": 1145482,
+     "sha": "5a5921946620853dbf03c45217e20c8f9e40c6ef2bee665b5ac50b691a79a8dc"
+    },
+    "water.geojson": {
+     "offset": 5031235,
+     "size": 129095,
+     "sha": "4a4aeb583bf3e0ae2cf5890a31a9ff778c6abd87e66d2743a6a47a6337f5f12c"
+    },
+    "media.bin": {
+     "offset": 5160330,
+     "size": 433502,
+     "sha": "4281cb038fe59cfddcee88da3aee6af8cd44922acbbb423379bf3488d967c906"
+    },
+    "basemap.pmtiles": {
+     "offset": 5593832,
+     "size": 5642984,
+     "sha": "bd95652a64961e3077a252be81f4300c6599c93ca06baa1431a6248249818ae9"
+    },
+    "dem.pmtiles": {
+     "offset": 11236816,
+     "size": 2737638,
+     "sha": "75ae9aa53743ca1378e231a8895e113c6e5dbca59bdf899c674da5e919e3aa5a"
+    },
+    "satellite.pmtiles": {
+     "offset": 13974454,
+     "size": 13830139,
+     "sha": "05e971e33de91ad1af754ab7e4cae5cbb826104a451d08cd3baf12d8daf84852"
+    }
+   },
+   "version": "1e5a9f96f3ec"
+  },
+  "547-361": {
+   "bbox": [
+    12.304688,
+    46.55886,
+    12.65625,
+    46.800059
+   ],
+   "pois": 1789,
+   "routes": 227,
+   "pack": {
+    "file": "cells/547-361.vopack",
+    "size": 19544973,
+    "sha": "d417bac94c71d5b94c6a46ed1e86546fd8bb0ce6b2fc86779229a111ece46bfe"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1304,
+     "size": 1926936,
+     "sha": "6434e673c68d6b4d5fcb696fce46c9ed69f133fddd8878aa8757e367ba009d9f"
+    },
+    "texts-en.json": {
+     "offset": 1928240,
+     "size": 274877,
+     "sha": "86c91399140b9827b55994c3d7ceb97ecfef5e61342bb6ecbd74aaa303792bc9"
+    },
+    "texts-de.json": {
+     "offset": 2203117,
+     "size": 291690,
+     "sha": "df17f90523ee13b58e78803c2b9d74c8b0990253e2334664bbd5179695cc783d"
+    },
+    "texts-nl.json": {
+     "offset": 2494807,
+     "size": 290322,
+     "sha": "3a2a97c9fdf53b81be6328876e51f98bc7bc927db1367ddf30c45c387d29d695"
+    },
+    "network.json": {
+     "offset": 2785129,
+     "size": 1115430,
+     "sha": "439f0b297231109f20f25364bb91d84a02470a9f37914b60e3de1f7e50a19c5e"
+    },
+    "water.geojson": {
+     "offset": 3900559,
+     "size": 255310,
+     "sha": "82d2a8db35fbe1e1f6adc1acb2f9706e089c1b62d55feb7009616569cf9ab41b"
+    },
+    "media.bin": {
+     "offset": 4155869,
+     "size": 333638,
+     "sha": "4bf7046b803b9604f182dd1740c65459afea0f0f184e8ebddaa89c89c79dc87d"
+    },
+    "basemap.pmtiles": {
+     "offset": 4489507,
+     "size": 4816120,
+     "sha": "d4407d14eb848415c6103f306cc9e17800d7d04fef37a278569c2e6b07212d67"
+    },
+    "dem.pmtiles": {
+     "offset": 9305627,
+     "size": 2763462,
+     "sha": "dacc71878de77895f9e54e2cf6f486299510ce0f238b0308e88700afd7c637c0"
+    },
+    "satellite.pmtiles": {
+     "offset": 12069089,
+     "size": 7475884,
+     "sha": "49e5248c18ff6f06bd93e8ef5abf1fa7d0655c69837c61a4350ff8e4e9ad08ef"
+    }
+   },
+   "version": "d417bac94c71"
+  },
+  "542-362": {
+   "bbox": [
+    10.546875,
+    46.316584,
+    10.898438,
+    46.55886
+   ],
+   "pois": 1364,
+   "routes": 232,
+   "pack": {
+    "file": "cells/542-362.vopack",
+    "size": 24320284,
+    "sha": "6dec5637e2d624b7412db51d9bd5b3a9f75c3ea790526409840f14050a928477"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1303,
+     "size": 1228006,
+     "sha": "dd4ec092281c7948b577b05196ffebb8647557eafe96adcb683a0d0c7fbf6973"
+    },
+    "texts-en.json": {
+     "offset": 1229309,
+     "size": 189286,
+     "sha": "adbe1381fa561ef1d380868228ed0c2640785aa9d04e09097e6063bc09314c72"
+    },
+    "texts-de.json": {
+     "offset": 1418595,
+     "size": 200685,
+     "sha": "a609a5634dc5e859ee7a736cbd0f99b6df22b33bd24677ae7925e0312bfea949"
+    },
+    "texts-nl.json": {
+     "offset": 1619280,
+     "size": 199560,
+     "sha": "a99013e7d9debd7de650b5113ca5eb72e68ad6868f3e6513b31f5938e7dd2e82"
+    },
+    "network.json": {
+     "offset": 1818840,
+     "size": 727062,
+     "sha": "95f2bd54ad1d9f3e461d3efde2a9f180bcadbcab281777d2b7cb649bc770df33"
+    },
+    "water.geojson": {
+     "offset": 2545902,
+     "size": 159212,
+     "sha": "8162f4206b86b05d7ca7fe8f31bf9caf24e364a1a04f5c69c38690c006a34c76"
+    },
+    "media.bin": {
+     "offset": 2705114,
+     "size": 426352,
+     "sha": "64d07f74d1201e029b9c1032bc005472b250a5f4ec4880f611628e537c25d542"
+    },
+    "basemap.pmtiles": {
+     "offset": 3131466,
+     "size": 3689102,
+     "sha": "2ad9f94c5f13e6c18bce1f3fc4652823893186e91faacb896d6fba4c23704662"
+    },
+    "dem.pmtiles": {
+     "offset": 6820568,
+     "size": 2765695,
+     "sha": "e042c48224711b6ddca084b301df32dcfc86f573757895ca5ec06732b5c9a0e4"
+    },
+    "satellite.pmtiles": {
+     "offset": 9586263,
+     "size": 14734021,
+     "sha": "7fcd87c26a56cf7346513bffdcac5c9595a802d816c02e871e6f3db80edacd17"
+    }
+   },
+   "version": "6dec5637e2d6"
+  },
+  "543-362": {
+   "bbox": [
+    10.898438,
+    46.316584,
+    11.25,
+    46.55886
+   ],
+   "pois": 2452,
+   "routes": 321,
+   "pack": {
+    "file": "cells/543-362.vopack",
+    "size": 33516359,
+    "sha": "829203ca656e15f3f6ace383b593b447df0a737760cf29f7346a3c0ad57b4296"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1306,
+     "size": 2203280,
+     "sha": "c2461fafa1673477c93991ec28d50b6236b1d210f1b5a1bd32b38dd5723b88bf"
+    },
+    "texts-en.json": {
+     "offset": 2204586,
+     "size": 377616,
+     "sha": "0e9a3964ecc2e69d653d1c51598701bc57c8f36d5fa2758f88942a4d6ebfddb0"
+    },
+    "texts-de.json": {
+     "offset": 2582202,
+     "size": 396644,
+     "sha": "78c09fd4bfebb8398513beaa51c8ba709111577b241897ceb3f4f23a0c47893e"
+    },
+    "texts-nl.json": {
+     "offset": 2978846,
+     "size": 395599,
+     "sha": "25714519f4dbe2b40d1f80227b002f42c6de306361816b7804e401ed578f43bc"
+    },
+    "network.json": {
+     "offset": 3374445,
+     "size": 1724849,
+     "sha": "1686c1a7e7e4be9232918a89e84afe002531e520f1e4009317bd2f1ec0924bb8"
+    },
+    "water.geojson": {
+     "offset": 5099294,
+     "size": 182927,
+     "sha": "52e7aad7ce23c373ec940316d3c965b3beb3316d87a4f70d00469f2961e5f665"
+    },
+    "media.bin": {
+     "offset": 5282221,
+     "size": 989654,
+     "sha": "88f63d5325daed2a368c05591e1385e2ed8930a450672594e41d37f9855b6d10"
+    },
+    "basemap.pmtiles": {
+     "offset": 6271875,
+     "size": 7143973,
+     "sha": "7fbba7400c77df6128e7e9a6d46dae4b901bcacc3c0273f21608584ff87a88ae"
+    },
+    "dem.pmtiles": {
+     "offset": 13415848,
+     "size": 2678287,
+     "sha": "55c00322e574c08e1273a6340d4ebd4a4bf2b86de6fb9d5c2505af13f91c1c67"
+    },
+    "satellite.pmtiles": {
+     "offset": 16094135,
+     "size": 17422224,
+     "sha": "1258b601a9bb587a5a5610e57bbe811a7e18a1b0ddba8a4809cea006e41abc7a"
+    }
+   },
+   "version": "829203ca656e"
+  },
+  "544-362": {
+   "bbox": [
+    11.25,
+    46.316584,
+    11.601563,
+    46.55886
+   ],
+   "pois": 4643,
+   "routes": 583,
+   "pack": {
+    "file": "cells/544-362.vopack",
+    "size": 40900921,
+    "sha": "d449830021449c8ec5989f263322f2aa9ef467516fbd923fd76294765d63d9b9"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1309,
+     "size": 4416637,
+     "sha": "cf5f7c265237cbe1f581af8acf6b01ecb711d53be4bfd27df646e4efb6a1b89c"
+    },
+    "texts-en.json": {
+     "offset": 4417946,
+     "size": 867506,
+     "sha": "2f2496201d92591039e5eeec5a4f5695a3e4c7f2c4b16685f29685ad3bbcc208"
+    },
+    "texts-de.json": {
+     "offset": 5285452,
+     "size": 912553,
+     "sha": "3a1a7aa265f49574c69c33bbe983614e42ff710109ef75d4cb6d9689fcac44e3"
+    },
+    "texts-nl.json": {
+     "offset": 6198005,
+     "size": 913914,
+     "sha": "b359c6c3fbb997b534447232b3271a445a1a9952efe230e36d5f5277b3a130c1"
+    },
+    "network.json": {
+     "offset": 7111919,
+     "size": 2322380,
+     "sha": "3db1981f652528f614ceea8610b756b5ae2ca8674b17236e97c43170f8cc280c"
+    },
+    "water.geojson": {
+     "offset": 9434299,
+     "size": 252242,
+     "sha": "4cca099088b632831353febbc5c5fb10647dfa0c199158bf5944645c3fff71da"
+    },
+    "media.bin": {
+     "offset": 9686541,
+     "size": 1271144,
+     "sha": "e39539717a226b780c32c9d56f23fec69636f2fb769b42408c754c45ee7b14f4"
+    },
+    "basemap.pmtiles": {
+     "offset": 10957685,
+     "size": 10265651,
+     "sha": "658b3cf568a4250e162ad30688a1e351e1ce8db7cfe0cd75b13f1ca782ef9fbb"
+    },
+    "dem.pmtiles": {
+     "offset": 21223336,
+     "size": 2638828,
+     "sha": "fe424c632388152f1b1ee691ebbd4402528266035569efa0171281d23330418b"
+    },
+    "satellite.pmtiles": {
+     "offset": 23862164,
+     "size": 17038757,
+     "sha": "a3193de383a877748d0abd1db331b4596c7006f4c733314f9222b3184095e8d3"
+    }
+   },
+   "version": "d44983002144"
+  },
+  "545-362": {
+   "bbox": [
+    11.601563,
+    46.316584,
+    11.953125,
+    46.55886
+   ],
+   "pois": 3624,
+   "routes": 438,
+   "pack": {
+    "file": "cells/545-362.vopack",
+    "size": 32261879,
+    "sha": "667870536b639fc6a528d41b493b5003546a2976810228ad1fd67bd989356a18"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1307,
+     "size": 3406135,
+     "sha": "3e92b2111adeb3b8c53923c7617c94180550107a5947b54be02d885399c41488"
+    },
+    "texts-en.json": {
+     "offset": 3407442,
+     "size": 606919,
+     "sha": "8490a8fe3520369bf005239bc0836ac3d103954dbf00e0e695dc1df919b46c99"
+    },
+    "texts-de.json": {
+     "offset": 4014361,
+     "size": 634253,
+     "sha": "6267f038260fd4d9eb16d1528036f75a9fd088e35359b725e168cb17df4d2378"
+    },
+    "texts-nl.json": {
+     "offset": 4648614,
+     "size": 632189,
+     "sha": "23fd585edbfaa1e35c1ebf3490baacfab04e30dc215426decb9ab244387de430"
+    },
+    "network.json": {
+     "offset": 5280803,
+     "size": 1305989,
+     "sha": "b000dc7e149b2be612f26ef386c84dc4b60569c3eca4386fa5a2577239e6d306"
+    },
+    "water.geojson": {
+     "offset": 6586792,
+     "size": 190417,
+     "sha": "6bd951c2cbe758a835753bc05d4042b671f8350d56a39eac6157e5be33b854ef"
+    },
+    "media.bin": {
+     "offset": 6777209,
+     "size": 1020048,
+     "sha": "52e02569fa6b4d0e311f86660dc7fb6d60643a4e12b1de44d83e6b95ca280039"
+    },
+    "basemap.pmtiles": {
+     "offset": 7797257,
+     "size": 6508874,
+     "sha": "f46a39ac1dcf21cc9366ca4f7098ba3934c9d80dc861ed54ff5a509b8a38d07e"
+    },
+    "dem.pmtiles": {
+     "offset": 14306131,
+     "size": 2742163,
+     "sha": "b669d8cbb52d6929ff55e13c412c725b406a2f1388b609137beac1d9f086c423"
+    },
+    "satellite.pmtiles": {
+     "offset": 17048294,
+     "size": 15213585,
+     "sha": "5deb649c4a68abcf825bcb10386d52c8492fbecf801aa5033748d536fd7d9430"
+    }
+   },
+   "version": "667870536b63"
+  },
+  "542-363": {
+   "bbox": [
+    10.546875,
+    46.073231,
+    10.898438,
+    46.316584
+   ],
+   "pois": 2441,
+   "routes": 177,
+   "pack": {
+    "file": "cells/542-363.vopack",
+    "size": 31297718,
+    "sha": "919d35416ffe660305c92c9edcba1bf5925ca4fbe062c17abdc0b850456b6499"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1304,
+     "size": 1447941,
+     "sha": "a9b2e644d5806c55fef095260210db8f670faeb65e17d07c8c271eabbef29f81"
+    },
+    "texts-en.json": {
+     "offset": 1449245,
+     "size": 344050,
+     "sha": "5f91cf7de8fafbf34a721b393eb1c7531209d344360182684eb4a203d8e4f98e"
+    },
+    "texts-de.json": {
+     "offset": 1793295,
+     "size": 366841,
+     "sha": "777f796a9a304a3ae2987375d35a598c4311c382f3c9b20751038c4706437a00"
+    },
+    "texts-nl.json": {
+     "offset": 2160136,
+     "size": 365081,
+     "sha": "6152cff18ac84d2444e8376165d542af092156b48f8552d25eaf94f9009dc7ad"
+    },
+    "network.json": {
+     "offset": 2525217,
+     "size": 884708,
+     "sha": "21784e4c2a002e236cf81aebeacf5261c89ce10b54c26bf17acb089aff71223a"
+    },
+    "water.geojson": {
+     "offset": 3409925,
+     "size": 204202,
+     "sha": "82b8d567b1226002b26717f4095d3afb14dffbc89ad9985aebbbf96d4da8aea4"
+    },
+    "media.bin": {
+     "offset": 3614127,
+     "size": 898088,
+     "sha": "e00879435f308a234b067cb49920f647882fd2c1fcfa8d7b3248f215b665eece"
+    },
+    "basemap.pmtiles": {
+     "offset": 4512215,
+     "size": 4132039,
+     "sha": "d600443951bb63e16d4e048c5cdd29392cf4b1f8545ac7518ecca7146cdb6b34"
+    },
+    "dem.pmtiles": {
+     "offset": 8644254,
+     "size": 2773658,
+     "sha": "71d867b9de54f907c9af9f958bce2f67d0b148566527c2c5aebdacdbe5c765c2"
+    },
+    "satellite.pmtiles": {
+     "offset": 11417912,
+     "size": 19879806,
+     "sha": "470c59331554d177cb26948f5553d7f55138e6eb496a4ba11e54234b15aec3a4"
+    }
+   },
+   "version": "919d35416ffe"
+  },
+  "543-363": {
+   "bbox": [
+    10.898438,
+    46.073231,
+    11.25,
+    46.316584
+   ],
+   "pois": 4078,
+   "routes": 278,
+   "pack": {
+    "file": "cells/543-363.vopack",
+    "size": 41580259,
+    "sha": "8689b3949da1f2ef4fb611a9f60e131e418b11506f9c689cce108a61ccc81a18"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1308,
+     "size": 3022708,
+     "sha": "bfbcdb68931da972a7188cc3bb44c2ca74e9298051002121d387483ae96f00e7"
+    },
+    "texts-en.json": {
+     "offset": 3024016,
+     "size": 653359,
+     "sha": "277701e8f73dabfbe7d2d4126adb1d60615e7894b4b7c9493bacc6ae715e323a"
+    },
+    "texts-de.json": {
+     "offset": 3677375,
+     "size": 689304,
+     "sha": "439dc8854e1c71563b2a45278014bf73c221259b4bad9ecdee795ee812a5b45f"
+    },
+    "texts-nl.json": {
+     "offset": 4366679,
+     "size": 687658,
+     "sha": "238a25e11fee345e6d1b5716a4f29f7b215e38d41c75df86fb3e39a84edd0826"
+    },
+    "network.json": {
+     "offset": 5054337,
+     "size": 2532259,
+     "sha": "a48abce894e0152a5377e17f52b31b97ea3a95d58a9d62598bc6fff246d4cd4e"
+    },
+    "water.geojson": {
+     "offset": 7586596,
+     "size": 250108,
+     "sha": "9121e897d0f934ed0ce9ab117cde62a3ced40586341b1308729bd6e69b808206"
+    },
+    "media.bin": {
+     "offset": 7836704,
+     "size": 2779112,
+     "sha": "88e02f725b32c47bdc2535b183da7daa6e03c06df069181f3ec3957085a0417d"
+    },
+    "basemap.pmtiles": {
+     "offset": 10615816,
+     "size": 9378918,
+     "sha": "23e0d5bba8dd68ba3e2202f362ce352e8afcc6e4e3bb21287b3dcb98d38404d2"
+    },
+    "dem.pmtiles": {
+     "offset": 19994734,
+     "size": 2669252,
+     "sha": "0860f26acb1b4348abee10e32c49dd6536c8584a01d92391922aa6bcda68b158"
+    },
+    "satellite.pmtiles": {
+     "offset": 22663986,
+     "size": 18916273,
+     "sha": "16723ae9c2e3a56e816acc0814f0329cb7d2feb6da601872df7b71d71b4ceb5c"
+    }
+   },
+   "version": "8689b3949da1"
+  },
+  "544-363": {
+   "bbox": [
+    11.25,
+    46.073231,
+    11.601563,
+    46.316584
+   ],
+   "pois": 3199,
+   "routes": 233,
+   "pack": {
+    "file": "cells/544-363.vopack",
+    "size": 40694732,
+    "sha": "2e0a5eb32f1ea7b8b7f3775e1e985a72616405bcb2a9918737c439d8bc484584"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1307,
+     "size": 2573189,
+     "sha": "b186638371d7ca25fe33d1cd525b84f54f81893537fb2101bf189bcbda2e761a"
+    },
+    "texts-en.json": {
+     "offset": 2574496,
+     "size": 497133,
+     "sha": "6eb0502563a6c9a2d6e6d5ea494348642eefd1820f3ba10e810180376589a147"
+    },
+    "texts-de.json": {
+     "offset": 3071629,
+     "size": 532028,
+     "sha": "5726f48ccc1a590489cc088dee88612c1b514ecdbf2a398febba8feacf02924b"
+    },
+    "texts-nl.json": {
+     "offset": 3603657,
+     "size": 531154,
+     "sha": "007c4b14a571559c38c4f2ab67caf9e1dff17abb003c0dc65d6c2d35bdc50db7"
+    },
+    "network.json": {
+     "offset": 4134811,
+     "size": 1586859,
+     "sha": "5b8d5da8b2ab789b2eebb63d56b9be54bf328f426f07a95c9da01287e9c2bb5a"
+    },
+    "water.geojson": {
+     "offset": 5721670,
+     "size": 383734,
+     "sha": "20416230ca3394a138e00595d5106201606217ecc92d688ec338662896e8920b"
+    },
+    "media.bin": {
+     "offset": 6105404,
+     "size": 1646348,
+     "sha": "040ba7a269f117d1d6bb0f234657461c54512dd816657730b828e63fee1aeb43"
+    },
+    "basemap.pmtiles": {
+     "offset": 7751752,
+     "size": 6126284,
+     "sha": "4ab69d360ca2ef219f970dbafc81b835383590c24d9bf71e24317957c9694e7c"
+    },
+    "dem.pmtiles": {
+     "offset": 13878036,
+     "size": 2738512,
+     "sha": "faf8be6058a47e7169d900f5e02d368575397e7054d0c02d303ae295666aa832"
+    },
+    "satellite.pmtiles": {
+     "offset": 16616548,
+     "size": 24078184,
+     "sha": "3e63298bc2fd215496c83955cf4abfd2d661fa2bd262d12827b1e433884a2ce5"
+    }
+   },
+   "version": "2e0a5eb32f1e"
+  },
+  "545-363": {
+   "bbox": [
+    11.601563,
+    46.073231,
+    11.953125,
+    46.316584
+   ],
+   "pois": 2310,
+   "routes": 206,
+   "pack": {
+    "file": "cells/545-363.vopack",
+    "size": 33690600,
+    "sha": "aa4dcb35d76e3fb46b1a71c62d6cbe1c685e2c69d2f24818335bc82a22de13ed"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1306,
+     "size": 2050956,
+     "sha": "c2b6c7747c3b1f2f8d263772ae1508b119aa272fbd027fac6672237373535028"
+    },
+    "texts-en.json": {
+     "offset": 2052262,
+     "size": 374029,
+     "sha": "e0ce2600d0b52075c9325f95e21c79c93c266d5c99e0944ad0405a6a02334a08"
+    },
+    "texts-de.json": {
+     "offset": 2426291,
+     "size": 398115,
+     "sha": "b1a008fbc9c01a85a45da6d65bca0277334cb014ff68f219e3f1a057ddcc26e0"
+    },
+    "texts-nl.json": {
+     "offset": 2824406,
+     "size": 396585,
+     "sha": "2cf54fd4a33eb47c016184b031d035c79f64db216ff468553dfa71e359bf806f"
+    },
+    "network.json": {
+     "offset": 3220991,
+     "size": 1036876,
+     "sha": "223c1f2558be4c5179802367330fb29c8dbc645aa22fd6bd06ef638824a2b05b"
+    },
+    "water.geojson": {
+     "offset": 4257867,
+     "size": 435346,
+     "sha": "a91dd05577d2012fd3285fb84ad005f387aea8104273342e71b76ff1a694753b"
+    },
+    "media.bin": {
+     "offset": 4693213,
+     "size": 755560,
+     "sha": "f9643bfadce832ea76118b5a071999b24c919cb7b65f66a79c1d9d001b242121"
+    },
+    "basemap.pmtiles": {
+     "offset": 5448773,
+     "size": 5563205,
+     "sha": "e690ff82fe55b94c240dde3d4330990adfa423b6cc00c3e512370f3090c4bf29"
+    },
+    "dem.pmtiles": {
+     "offset": 11011978,
+     "size": 2780707,
+     "sha": "a661dcb8e33a22187a10a2582359d84d2d8aa7941f6d78c66434900ce1398387"
+    },
+    "satellite.pmtiles": {
+     "offset": 13792685,
+     "size": 19897915,
+     "sha": "c7b312e9dd5aff34e89c1c6dfb4b2fb591a48d6d627ca892ed7919740a09b52c"
+    }
+   },
+   "version": "aa4dcb35d76e"
+  },
+  "542-364": {
+   "bbox": [
+    10.546875,
+    45.828799,
+    10.898438,
+    46.073231
+   ],
+   "pois": 4326,
+   "routes": 203,
+   "pack": {
+    "file": "cells/542-364.vopack",
+    "size": 39695187,
+    "sha": "e2fb306d35af7189ff9ca8e5461c43023565083d56125c9811c948051602afbf"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1308,
+     "size": 2685364,
+     "sha": "50289a1b0904847cbf713725c81b02e3f77c2bdf9ea2d66ac2607b0b89948414"
+    },
+    "texts-en.json": {
+     "offset": 2686672,
+     "size": 629015,
+     "sha": "c8866b5932893554a8f71b12617e9614eb6242d84ff82fb6e728faf41cb64b95"
+    },
+    "texts-de.json": {
+     "offset": 3315687,
+     "size": 667666,
+     "sha": "12615be86bce0f4ff21fc2f8412cb49a2064d89cbd49c6ebb244ec98de45fb09"
+    },
+    "texts-nl.json": {
+     "offset": 3983353,
+     "size": 663398,
+     "sha": "222f8dc238ac39335e8fd8746450bf512db8ee4dcfd5e002137f0c96e1f3e04f"
+    },
+    "network.json": {
+     "offset": 4646751,
+     "size": 2325268,
+     "sha": "29a647a16aedc5933dec76a3f5fc2bb99c5df903200b7300f706b42dc9a74410"
+    },
+    "water.geojson": {
+     "offset": 6972019,
+     "size": 322314,
+     "sha": "7adb9f5120e828890bc0f58f80c617ec73ebd9521f253db46d3d12d5ed82b5a5"
+    },
+    "media.bin": {
+     "offset": 7294333,
+     "size": 1849204,
+     "sha": "fec1f003b59ac31a27e1a6e588d583796073955c30d4b3c54c688af551d3bc8a"
+    },
+    "basemap.pmtiles": {
+     "offset": 9143537,
+     "size": 10159963,
+     "sha": "a02d19a6bd3ea5e6b6dbd17f1829a5ed588631cc8bf4900fe294921c2f1e9949"
+    },
+    "dem.pmtiles": {
+     "offset": 19303500,
+     "size": 2707851,
+     "sha": "3af7cfc949e8d50716ddd9ab66d5bb889bb373342ef1de5d08ce232c6d4aef31"
+    },
+    "satellite.pmtiles": {
+     "offset": 22011351,
+     "size": 17683836,
+     "sha": "ba5ebff61de0e0bc5858b854f7e2975b53384326b28eb613fc83280f4d2b8c82"
+    }
+   },
+   "version": "e2fb306d35af"
+  },
+  "543-364": {
+   "bbox": [
+    10.898438,
+    45.828799,
+    11.25,
+    46.073231
+   ],
+   "pois": 5484,
+   "routes": 212,
+   "pack": {
+    "file": "cells/543-364.vopack",
+    "size": 46463069,
+    "sha": "3677f337d8a53794d09c2e7c63cd6f29ea29b2239df56261717366b05d26c2d5"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1309,
+     "size": 3502931,
+     "sha": "10cb25288096c39fa058b1889cd6f1bc6f03d4403e5511714bd5bfb55daecfe7"
+    },
+    "texts-en.json": {
+     "offset": 3504240,
+     "size": 817491,
+     "sha": "f9df2e118a205f68efed914e7bce61d4a96791ba4909c296567908838896d71c"
+    },
+    "texts-de.json": {
+     "offset": 4321731,
+     "size": 863375,
+     "sha": "6151da91649cf4aec05b4ccb139bb7d3ba39ee4e662ed09dd74ee36bfa0dbf61"
+    },
+    "texts-nl.json": {
+     "offset": 5185106,
+     "size": 862347,
+     "sha": "64183522f87b2dacbe1229aa46321ecb6565c52b694a509d834b526f3068a372"
+    },
+    "network.json": {
+     "offset": 6047453,
+     "size": 3307227,
+     "sha": "e6b22cad6881f3af0b39e0321cf2ad0906f77201fb2be3ea62c934a7fc84c792"
+    },
+    "water.geojson": {
+     "offset": 9354680,
+     "size": 246900,
+     "sha": "1b0f4634bb7070ec5e61c1d5983029da0ccf39edfe0853f3d8b2e3e6c4ff2779"
+    },
+    "media.bin": {
+     "offset": 9601580,
+     "size": 3436970,
+     "sha": "5fdb1a44f671358868ab179cef35f1a64614b388c982e41adae026fff7940cdc"
+    },
+    "basemap.pmtiles": {
+     "offset": 13038550,
+     "size": 13059684,
+     "sha": "0a17fe082b613253ba8aee95b8ef33aef607bd3a87326b26a33b5311ba370348"
+    },
+    "dem.pmtiles": {
+     "offset": 26098234,
+     "size": 2664985,
+     "sha": "7ba241fba61d53074a01939c3ca70322d49cf2cb488f2eeb27adcec07af56888"
+    },
+    "satellite.pmtiles": {
+     "offset": 28763219,
+     "size": 17699850,
+     "sha": "f19e0f7c94806e13386d44f49542fb4ab2a0c21527d5a010cc1176c7e0ec4082"
+    }
+   },
+   "version": "3677f337d8a5"
+  },
+  "544-364": {
+   "bbox": [
+    11.25,
+    45.828799,
+    11.601563,
+    46.073231
+   ],
+   "pois": 3495,
+   "routes": 149,
+   "pack": {
+    "file": "cells/544-364.vopack",
+    "size": 27042285,
+    "sha": "8a67864271eb522fcb1a8ea3e9b065319e920628a611835617ab318a7da70254"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1306,
+     "size": 2616177,
+     "sha": "feccad8ff1893409b141f479fe61931219ea699f46a610deb1a6eec01dca5077"
+    },
+    "texts-en.json": {
+     "offset": 2617483,
+     "size": 558873,
+     "sha": "7c26162553feedfdc1643cc1eebf0769cac09effa271b3b5698760c92522e5ce"
+    },
+    "texts-de.json": {
+     "offset": 3176356,
+     "size": 595174,
+     "sha": "f527a19ed2cb3a26b4c4c0283834477c3d23175a4e27c07ee7ced75022d95363"
+    },
+    "texts-nl.json": {
+     "offset": 3771530,
+     "size": 593285,
+     "sha": "8b543ef335052422e5b4ccb67f92e111a4d559e5134e57a4d346a4b21322d671"
+    },
+    "network.json": {
+     "offset": 4364815,
+     "size": 1668364,
+     "sha": "90001e154f41f992e54007e1b106254e18fbffd9207aa022603d4e218522cc24"
+    },
+    "water.geojson": {
+     "offset": 6033179,
+     "size": 442654,
+     "sha": "f62abf30f0aae0c0a70d389d4eb1ada1f6db316af8459b8c22f8980e8fa017a8"
+    },
+    "media.bin": {
+     "offset": 6475833,
+     "size": 1752646,
+     "sha": "86345508a3922d84c5a2e24d7005efce9b0fbeb76aa84bc58ae0e9fc7b3a8f75"
+    },
+    "basemap.pmtiles": {
+     "offset": 8228479,
+     "size": 7380353,
+     "sha": "6d9214ca279ac9ea084e89321fa3d90ffab8baf5c0fe760d97b6569ea405a855"
+    },
+    "dem.pmtiles": {
+     "offset": 15608832,
+     "size": 2648410,
+     "sha": "34648bbc5c2da664b10886dd9ea9d44536143a9e6c90a63ff574560c7788adeb"
+    },
+    "satellite.pmtiles": {
+     "offset": 18257242,
+     "size": 8785043,
+     "sha": "2a25c4b18acd12db445355f1687f79ddab81d4d4d6755ece80415296011ad772"
+    }
+   },
+   "version": "8a67864271eb"
+  },
+  "543-365": {
+   "bbox": [
+    10.898438,
+    45.58329,
+    11.25,
+    45.828799
+   ],
+   "pois": 4289,
+   "routes": 295,
+   "pack": {
+    "file": "cells/543-365.vopack",
+    "size": 28762264,
+    "sha": "6a94dbc62e00f2cc3b4b44fc6679071ed2166762f650c22928144fc9d597e7d4"
+   },
+   "files": {
+    "content.json": {
+     "offset": 1307,
+     "size": 3507991,
+     "sha": "f0eaa6a299d1270f6560bbad97056ac5cf6558f6285f6082361833252ed576c3"
+    },
+    "texts-en.json": {
+     "offset": 3509298,
+     "size": 716784,
+     "sha": "58f03583b84c51e312ad6755e76c9834c20e169dd690f1481d410b61ff04ab05"
+    },
+    "texts-de.json": {
+     "offset": 4226082,
+     "size": 764698,
+     "sha": "8022d41116dfe8b482c3ef3a1ecccad450004f1d6bd8f6540223f33423bf4c36"
+    },
+    "texts-nl.json": {
+     "offset": 4990780,
+     "size": 761958,
+     "sha": "60a01f4a294d8ef42d6d74b3fb23268edbe8e9d641dd1a281404aee942100ede"
+    },
+    "network.json": {
+     "offset": 5752738,
+     "size": 1946392,
+     "sha": "40bb3269e773ba1d8a6197c44342ca7f079200bf85e9c253e0d1b4b3ea10ddcb"
+    },
+    "water.geojson": {
+     "offset": 7699130,
+     "size": 473678,
+     "sha": "7b547d916e2e7204c7f39d050883fb5b25b6d8ac1348e4a145748ac4c2ffd42f"
+    },
+    "media.bin": {
+     "offset": 8172808,
+     "size": 1117962,
+     "sha": "2f688918ec4dd77203e2a38ca258879aa2f73ff7c701160e2c3416f247d89061"
+    },
+    "basemap.pmtiles": {
+     "offset": 9290770,
+     "size": 11042016,
+     "sha": "059be9aa11cdf3afb2dd05ce581425123216a3e70768f6267d645c28cefa4c5f"
+    },
+    "dem.pmtiles": {
+     "offset": 20332786,
+     "size": 2717782,
+     "sha": "007a8a2bf01a6d053e5e9742f1dc9463b17d918bd6567e8baa56e65723c13388"
+    },
+    "satellite.pmtiles": {
+     "offset": 23050568,
+     "size": 5711696,
+     "sha": "b5e0174b57eaeb96ab683f369e3ba0e7438891f303abe75b5fe4ecf9acb45e06"
+    }
+   },
+   "version": "6a94dbc62e00"
+  }
+ },
+ "enti": [
+  {
+   "id": "apt-valsugana",
+   "name": "APT Valsugana Lagorai",
+   "color": "#0d6b4f",
+   "bbox": [
+    11.15706,
+    45.93891,
+    11.75173,
+    46.23522
+   ],
+   "cells": [
+    "543-363",
+    "544-363",
+    "545-363",
+    "543-364",
+    "544-364",
+    "545-364"
+   ],
+   "overlay": null
+  },
+  {
+   "id": "apt-fiemme",
+   "name": "APT Val di Fiemme",
+   "color": "#1565c0",
+   "bbox": [
+    11.30562,
+    46.16248,
+    11.75007,
+    46.38369
+   ],
+   "cells": [
+    "544-362",
+    "545-362",
+    "544-363",
+    "545-363"
+   ],
+   "overlay": null
+  },
+  {
+   "id": "apt-trento",
+   "name": "APT Trento, Monte Bondone, Valle dei Laghi",
+   "color": "#8e24aa",
+   "bbox": [
+    10.92089,
+    45.94243,
+    11.20975,
+    46.15237
+   ],
+   "cells": [
+    "543-363",
+    "543-364"
+   ],
+   "overlay": null
+  },
+  {
+   "id": "apt-paganella",
+   "name": "APT Dolomiti Paganella",
+   "color": "#e65100",
+   "bbox": [
+    10.8936,
+    46.10875,
+    11.09221,
+    46.2379
+   ],
+   "cells": [
+    "542-363",
+    "543-363"
+   ],
+   "overlay": null
+  },
+  {
+   "id": "prov-vicenza",
+   "name": "Provincia di Vicenza (esempio)",
+   "color": "#6d4c41",
+   "bbox": [
+    11.1362,
+    45.25538,
+    11.83627,
+    46.01446
+   ],
+   "cells": [
+    "543-364",
+    "544-364",
+    "545-364",
+    "543-365",
+    "544-365",
+    "545-365",
+    "543-366",
+    "544-366"
+   ],
+   "overlay": null
+  }
+ ],
+ "zones": [
+  {
+   "id": "valsugana",
+   "name": "Valsugana e Lagorai",
+   "cells": [
+    "543-363",
+    "544-363",
+    "545-363",
+    "543-364",
+    "544-364"
+   ],
+   "bbox": [
+    10.898438,
+    45.828799,
+    11.953125,
+    46.316584
+   ]
+  },
+  {
+   "id": "fiemme",
+   "name": "Val di Fiemme",
+   "cells": [
+    "544-362",
+    "545-362",
+    "544-363",
+    "545-363"
+   ],
+   "bbox": [
+    11.25,
+    46.073231,
+    11.953125,
+    46.55886
+   ]
+  },
+  {
+   "id": "trento",
+   "name": "Trento e dintorni",
+   "cells": [
+    "543-363",
+    "543-364"
+   ],
+   "bbox": [
+    10.898438,
+    45.828799,
+    11.25,
+    46.316584
+   ]
+  },
+  {
+   "id": "brenta",
+   "name": "Paganella e Dolomiti di Brenta",
+   "cells": [
+    "542-363",
+    "543-363"
+   ],
+   "bbox": [
+    10.546875,
+    46.073231,
+    11.25,
+    46.316584
+   ]
+  },
+  {
+   "id": "val-di-fassa",
+   "name": "Val di Fassa",
+   "cells": [
+    "545-362"
+   ],
+   "bbox": [
+    11.601563,
+    46.316584,
+    11.953125,
+    46.55886
+   ]
+  },
+  {
+   "id": "val-gardena",
+   "name": "Val Gardena",
+   "cells": [
+    "544-361",
+    "544-362",
+    "545-361",
+    "545-362"
+   ],
+   "bbox": [
+    11.25,
+    46.316584,
+    11.953125,
+    46.800059
+   ]
+  },
+  {
+   "id": "alta-badia",
+   "name": "Alta Badia",
+   "cells": [
+    "545-361",
+    "545-362",
+    "546-361"
+   ],
+   "bbox": [
+    11.601563,
+    46.316584,
+    12.304688,
+    46.800059
+   ]
+  },
+  {
+   "id": "sciliar-catinaccio",
+   "name": "Sciliar e Catinaccio",
+   "cells": [
+    "544-361",
+    "544-362",
+    "545-361",
+    "545-362"
+   ],
+   "bbox": [
+    11.25,
+    46.316584,
+    11.953125,
+    46.800059
+   ]
+  },
+  {
+   "id": "cortina",
+   "name": "Cortina d'Ampezzo",
+   "cells": [
+    "546-361"
+   ],
+   "bbox": [
+    11.953125,
+    46.316584,
+    12.304688,
+    46.800059
+   ]
+  },
+  {
+   "id": "tre-cime",
+   "name": "Tre Cime e Alta Pusteria",
+   "cells": [
+    "546-361",
+    "547-361"
+   ],
+   "bbox": [
+    11.953125,
+    46.55886,
+    12.65625,
+    46.800059
+   ]
+  },
+  {
+   "id": "val-pusteria",
+   "name": "Val Pusteria",
+   "cells": [
+    "544-360",
+    "544-361",
+    "545-360",
+    "545-361",
+    "546-360",
+    "546-361",
+    "547-361"
+   ],
+   "bbox": [
+    11.25,
+    46.55886,
+    12.65625,
+    47.040182
+   ]
+  },
+  {
+   "id": "valle-isarco",
+   "name": "Valle Isarco e Bressanone",
+   "cells": [
+    "544-360",
+    "544-361",
+    "545-360",
+    "545-361"
+   ],
+   "bbox": [
+    11.25,
+    46.55886,
+    11.953125,
+    47.040182
+   ]
+  },
+  {
+   "id": "merano",
+   "name": "Merano e dintorni",
+   "cells": [
+    "543-361",
+    "544-361"
+   ],
+   "bbox": [
+    10.898438,
+    46.55886,
+    11.601563,
+    46.800059
+   ]
+  },
+  {
+   "id": "val-venosta",
+   "name": "Val Venosta",
+   "cells": [
+    "541-361",
+    "542-360",
+    "542-361",
+    "542-362",
+    "543-360",
+    "543-361",
+    "543-362"
+   ],
+   "bbox": [
+    10.195313,
+    46.316584,
+    11.25,
+    47.040182
+   ]
+  },
+  {
+   "id": "marmolada-agordino",
+   "name": "Marmolada e Agordino",
+   "cells": [
+    "545-362",
+    "545-363"
+   ],
+   "bbox": [
+    11.601563,
+    46.073231,
+    12.304688,
+    46.55886
+   ]
+  },
+  {
+   "id": "primiero",
+   "name": "Primiero e San Martino di Castrozza",
+   "cells": [
+    "545-363"
+   ],
+   "bbox": [
+    11.601563,
+    46.073231,
+    11.953125,
+    46.316584
+   ]
+  },
+  {
+   "id": "lagorai",
+   "name": "Lagorai",
+   "cells": [
+    "544-363",
+    "545-363"
+   ],
+   "bbox": [
+    11.25,
+    46.073231,
+    11.953125,
+    46.316584
+   ]
+  },
+  {
+   "id": "val-di-sole",
+   "name": "Val di Sole",
+   "cells": [
+    "542-362",
+    "542-363",
+    "543-362",
+    "543-363"
+   ],
+   "bbox": [
+    10.546875,
+    46.073231,
+    11.25,
+    46.55886
+   ]
+  },
+  {
+   "id": "val-di-non",
+   "name": "Val di Non",
+   "cells": [
+    "543-362",
+    "543-363"
+   ],
+   "bbox": [
+    10.898438,
+    46.073231,
+    11.25,
+    46.55886
+   ]
+  },
+  {
+   "id": "rendena-campiglio",
+   "name": "Val Rendena e Madonna di Campiglio",
+   "cells": [
+    "542-363",
+    "542-364",
+    "543-363",
+    "543-364"
+   ],
+   "bbox": [
+    10.546875,
+    45.828799,
+    11.25,
+    46.316584
+   ]
+  },
+  {
+   "id": "garda-trentino",
+   "name": "Garda trentino",
+   "cells": [
+    "542-364",
+    "543-364",
+    "543-365"
+   ],
+   "bbox": [
+    10.546875,
+    45.58329,
+    11.25,
+    46.073231
+   ]
+  },
+  {
+   "id": "altipiani-cimbri",
+   "name": "Altipiani cimbri (Folgaria, Lavarone, Luserna)",
+   "cells": [
+    "543-364",
+    "544-364"
+   ],
+   "bbox": [
+    10.898438,
+    45.828799,
+    11.601563,
+    46.073231
+   ]
+  },
+  {
+   "id": "trentino",
+   "name": "Trentino",
+   "cells": [
+    "542-362",
+    "543-362",
+    "544-362",
+    "545-362",
+    "542-363",
+    "543-363",
+    "544-363",
+    "545-363",
+    "542-364",
+    "543-364",
+    "544-364",
+    "543-365"
+   ],
+   "bbox": [
+    10.195313,
+    45.58329,
+    11.953125,
+    46.55886
+   ]
+  },
+  {
+   "id": "alto-adige",
+   "name": "Alto Adige",
+   "cells": [
+    "546-359",
+    "542-360",
+    "543-360",
+    "544-360",
+    "545-360",
+    "546-360",
+    "541-361",
+    "542-361",
+    "543-361",
+    "544-361",
+    "545-361",
+    "546-361",
+    "547-361",
+    "542-362",
+    "543-362",
+    "544-362",
+    "545-362",
+    "543-363",
+    "544-363"
+   ],
+   "bbox": [
+    10.195313,
+    46.073231,
+    12.65625,
+    47.279229
+   ]
+  },
+  {
+   "id": "belluno",
+   "name": "Provincia di Belluno",
+   "cells": [
+    "546-361",
+    "547-361",
+    "545-362",
+    "545-363"
+   ],
+   "bbox": [
+    11.601563,
+    45.828799,
+    13.007813,
+    46.800059
+   ]
+  }
+ ]
+}

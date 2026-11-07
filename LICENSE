@@ -1,0 +1,15 @@
+Copyright (c) 2026 Alessandro Roat. Tutti i diritti riservati. All rights reserved.
+
+Il codice dell'applicazione Valsugana Offline (file in js/) è distribuito solo in forma compilata per la
+consultazione dell'app. Non è concesso copiarlo, modificarlo, ridistribuirlo o riutilizzarlo, in tutto o in parte,
+senza autorizzazione scritta dell'autore.
+
+Componenti di terze parti inclusi nel bundle, con le rispettive licenze:
+- MapLibre GL JS — BSD-3-Clause — https://github.com/maplibre/maplibre-gl-js
+- PMTiles — BSD-3-Clause — https://github.com/protomaps/PMTiles
+- fflate — MIT — https://github.com/101arrowz/fflate
+- Protomaps basemaps (stile e font Noto) — BSD-3-Clause / SIL OFL — https://github.com/protomaps/basemaps
+
+Dati (cartella pack/) con licenze proprie, indicate nel README e nell'app:
+OpenStreetMap (ODbL), catasto sentieri SAT, Terrain Tiles AWS Open Data, Ortofoto 2015 Provincia Autonoma di Trento,
+Wikipedia (CC BY-SA), Wikimedia Commons (licenza per ogni immagine).
